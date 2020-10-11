@@ -6,5 +6,5 @@ int main() {
     ofstream txtFile("files/text.txt");
     txtFile << "This is from a C++ file!";
     txtFile.close();
-    std::cout << "Look in files/text.txt" << std::endl;
+    std::cout << "Go look in files/text.txt now" << std::endl;
 }

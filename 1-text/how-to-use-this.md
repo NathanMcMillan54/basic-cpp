@@ -8,6 +8,7 @@ make all
 ##
 
 ``print.cpp``:
+
 ```c++
 #include <iostream>
 ```
@@ -24,6 +25,7 @@ Anything put between the arrows will be printed in the terminal.
 ##
 
 ``input.cpp``:
+
 ```c++
 int i;
 cin >> i;
@@ -36,6 +38,7 @@ typed.
 ##
 
 ``int.cpp`` and ``char.cpp``:
+
 These files show how to print a int value or a char value. It's the same as a normal print statement but instead of 
 using quotes we just use the name of the int or char.
 

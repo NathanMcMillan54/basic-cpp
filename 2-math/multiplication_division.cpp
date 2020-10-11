@@ -6,8 +6,8 @@ int main() {
     int x = 7;
     double j = 4.9;
 
-    i = i + x;
-    std::cout << "i + x = " << i << std::endl;
-    i = i - j;
-    std::cout << "i - j = " << i << std::endl;
+    i = i * x;
+    std::cout << "i * x = " << i << std::endl;
+    i = i / j;
+    std::cout << "i / j = " << i << std::endl;
 }

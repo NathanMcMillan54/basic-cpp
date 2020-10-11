@@ -42,6 +42,6 @@ ofstream txtFile("files/text.txt");
 txtFile << "Some text";
 txtFile.close();
 ```
-
+ 
 What this does is it sets ``txtFile`` as the path to your file. ``txtFile << "Some text"`` is saying to put the text in
 quotes into txtFile. ``txtFile.close()`` is used to close the file because it's not being used.
